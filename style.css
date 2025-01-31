@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
+body {
+    background: rgb(161, 160, 160);
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+    min-width: 330px;
+    height: 100%;
+    margin:auto;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid rgb(235, 232, 232);
+    padding: 20px;
+    
+    
+}
+
+.profile-pics img {
+    border-radius: 50%;
+    width: 100%;
+    border: 4px solid  rgb(216, 68, 118);
+}
+
+.detail {
+    line-height: 8px;
+    margin: 2px;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.profile-pics {
+    max-width: 250px;
+}
+
+.email-adress {
+    color: rgb(94, 93, 93);
+    font-size: 1.2rem;
+}
+
+.main .profile-texts {
+    text-align: center;
+    line-height: 7px;
+    white-space: nowrap;
+    font-family: "Merriweather", serif;
+}
+
+.main .profile-texts p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(51, 49, 49);
+}
+
+.about-head {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(216, 68, 118);
+    font-family: "Merriweather", serif;
+}
+
+.about-details {
+    margin-top: -1rem;
+    color: rgb(94, 93, 93);
+    font-size: 1.2rem;
+    text-wrap: wrap;
+}
+
+.email-adress span {
+    color: rgb(216, 68, 118);
+    font-weight: 600;
+}
+
+.hero-icons {
+    display: flex;
+    gap: 28px;
+    color: rgb(51, 49, 49);
+    margin-top: 1rem;
+}
+
+.hero-icons i {
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    background: rgb(65, 64, 64);
+}
+
+.time {
+    line-height: 8px;
+}
+
+@media screen and (max-width: 990px) {
+
+
+    .email-adress  {
+        font-size: 1rem;
+    }
+
+}
