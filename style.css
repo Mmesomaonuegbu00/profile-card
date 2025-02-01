@@ -101,7 +101,7 @@ body {
         font-size: 1.2rem;
     }
     .email-adress {
-        font-size: 1rem;
+        font-size: 12px;
         word-wrap: break-word;
     }
 
@@ -126,5 +126,9 @@ body {
     }
     .main .profile-texts  h2{
         font-size: 1rem;
+    }
+    .email-adress {
+        font-size: 10px;
+        
     }
 }
