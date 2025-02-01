@@ -95,11 +95,12 @@ body {
     line-height: 8px;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 10240px) {
 
 
     .email-adress {
         font-size: 1rem;
+        white-space: wrap;
     }
 
 }
@@ -111,8 +112,6 @@ body {
         padding: 20px 5px;
     }
 
-    .email-adress {
-        font-size: 0.8rem;
-    }
+
 
 }
