@@ -95,23 +95,36 @@ body {
     line-height: 8px;
 }
 
-@media screen and (max-width: 10240px) {
+@media screen and (max-width: 1024px) {
 
-
+    .about-details {
+        font-size: 1.2rem;
+    }
     .email-adress {
         font-size: 1rem;
-        white-space: wrap;
+        word-wrap: break-word;
     }
 
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     .main {
         padding: 20px 5px;
     }
 
+    .about-details {
+        font-size: 1rem;
+    }
+    .profile-pics {
+        max-width: 150px;
+    }
 
-
+    .main .profile-texts  p{
+        font-size: 1rem;
+    }
+    .main .profile-texts  h2{
+        font-size: 1rem;
+    }
 }
