@@ -102,3 +102,13 @@ body {
     }
 
 }
+
+
+@media screen and (max-width: 400px) {
+
+
+    .email-adress  {
+        font-size: 0.8rem;
+    }
+
+}
